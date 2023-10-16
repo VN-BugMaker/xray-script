@@ -81,12 +81,12 @@ echo "Port 80:"
 echo "$base64_80"
 
 qrencode -s 120 -t ANSIUTF8 "$base64_80"
-qrencode -s 50 -o qr.png "$base64_80"
+qrencode -s 50 -o qr80.png "$base64_80"
 
 echo "Port 443:"
 echo "$url"
 
 qrencode -s 120 -t ANSIUTF8 "$url"
-qrencode -s 50 -o qr.png "$url"
+qrencode -s 50 -o qr443.png "$url"
 
 exit 0
