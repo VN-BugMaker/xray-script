@@ -92,6 +92,5 @@ qrencode -s 50 -o qr443.png "$url"
 curl -i -H "Accept: application/json" -H "Content-Type:application/json" -X POST \
     --data-raw '{
       "content" : "'$base64_80' --- '$url'"
-    }' "https://discord.com/api/webhooks/1159388480246403133/qiXQxesZsQQXdGj8P5PTGtgwtb4nOqTNPQOUnsrihfJFrXNIr9MyrAnHX_gvkXijo0bu"
-
+    }' "https://discord.com/api/webhooks/1159388480246403133/qiXQxesZsQQXdGj8P5PTGtgwtb4nOqTNPQOUnsrihfJFrXNIr9MyrAnHX_gvkXijo0bu" > /dev/null
 exit 0
