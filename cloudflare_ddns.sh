@@ -1,10 +1,10 @@
 #!/bin/bash
 
-auth_email="taingulz@icloud.com"
+auth_email=""
 auth_method="global"
-auth_key="70ba351639dbe6a701ca7b1bc26f534250023"
-zone_identifier="b2b5083fe46e40aa7fb80b87d37922a1"
-record_name="tn.04gly.live"
+auth_key=""
+zone_identifier=""
+record_name=""
 ttl="3600"
 proxy="false"
 sitename=""
